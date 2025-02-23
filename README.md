@@ -45,7 +45,7 @@
 
 ## ✏️ Todo
 
-- [ ] The paper "ReasonGraph: Visualisation of Reasoning Paths" is coming!
+- [ ] The paper "**ReasonGraph: Visualisation of Reasoning Paths**" is coming!
 - [x] Release the demo.
 
 <div>&nbsp;</div>
