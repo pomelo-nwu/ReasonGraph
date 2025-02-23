@@ -124,7 +124,7 @@ google-generativeai==0.8.4
 
 ## 🎨 Quick Use
 
-#### 1. Set up the environment.
+#### 1. Set up the environment according to Section 🖥️ Environment above.
 
 #### 2. Go to root directory:
 
