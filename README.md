@@ -45,7 +45,8 @@
 
 ## ✏️ Todo
 
-- [ ] Release the demo.
+- [ ]  Release the demo paper.
+- [x] Release the demo.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
