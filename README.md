@@ -65,7 +65,7 @@
 
 ## 👀 Examples
 
-<details>
+<details open>
 <summary><strong>UI Screenshot:</strong></summary>
 
 <p align="left">
