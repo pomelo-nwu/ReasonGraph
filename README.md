@@ -64,6 +64,39 @@
 
 ## 👀 Examples
 
+<details>
+<summary><strong>UI Screenshot:</strong></summary>
+
+<p align="left">
+  <img src="./figures/UI.png" width="80%">
+</p>
+
+</details>
+
+<details>
+<summary><strong>Visualisation of sequential reasoning methods:</strong></summary>
+
+Chain of Thoughts (top-left), Self-refine (top-middle), Least-to-most (top-right), Self-consistency (bottom-left):
+
+<p align="left">
+  <img src="./figures/sequence_example.png" width="80%">
+</p>
+
+</details>
+
+<details>
+<summary><strong>Visualisation of tree-based reasoning methods:</strong></summary>
+
+Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
+
+<p align="left">
+  <img src="./figures/tree_example.png" width="80%">
+</p>
+
+</details>
+
+
+
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div id="environment">&nbsp;</div>
