@@ -105,6 +105,17 @@ Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
 
 ## 🖥️ Environment
 
+```
+python==3.11.8
+requests==2.31.0
+openai==1.63.2
+together==1.4.1
+flask==3.1.0
+google==3.0.0
+google-genai==1.2.0
+google-generativeai==0.8.4
+```
+
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div id="quick use">&nbsp;</div>
@@ -112,6 +123,34 @@ Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
 
 
 ## 🎨 Quick Use
+
+#### 1. Set up the environment.
+
+#### 2. Go to root directory:
+
+<absolute_path>/ReasonGraph/
+
+#### 3. Input the API key:
+
+If you don't enter the API keys, the interface can still run normally, but you won't be able to use the corresponding models for inference.
+
+<absolute_path>/ReasonGraph/api_keys.json
+
+```
+{
+    "anthropic": "<to be filled>",
+    "openai": "<to be filled>",
+    "google": "<to be filled>",
+    "together": "<to be filled>"
+}
+```
+
+#### 4. Run the program with a single line of code in the terminal:
+
+```
+python app.py
+```
+
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
