@@ -45,7 +45,7 @@
 
 ## ✏️ Todo
 
-- [ ]  Release the demo paper.
+- [ ] The paper "ReasonGraph: Visualisation of Reasoning Paths" is coming!
 - [x] Release the demo.
 
 <div>&nbsp;</div>
