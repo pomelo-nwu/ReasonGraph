@@ -12,9 +12,8 @@
 
 <p align="center">
   <a href="#examples">👀 Examples</a> •
-  <a href="#tree overview">🌳 Tree Overview</a> •
-  <a href="#paper list">📖 Paper List</a>
-  <a href="#visualisations">🎨 Visualisations</a>
+  <a href="#environment">🖥️ Environment</a> •
+  <a href="#quick use">🎨 Quick Use</a>
 </p>
 
 <p align="center">
@@ -66,25 +65,19 @@
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="tree overview">&nbsp;</div>
-
-## 🌳 Tree Overview
-
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div id="paper list">&nbsp;</div>
+<div id="environment">&nbsp;</div>
 
 
 
-## 📖 Paper List
+## 🖥️ Environment
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="visualisations">&nbsp;</div>
+<div id="quick use">&nbsp;</div>
 
 
 
-## 🎨 Visualisations
+## 🎨 Quick Use
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
