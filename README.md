@@ -154,6 +154,11 @@ python app.py
 ```
 
 #### 5. Open your browser and go to the local URL shown in the output.
+```
+ * Running on all addresses (X.X.X.X)
+ * Running on http://XXX.X.X.X:XXXX
+ * Running on http://XX.XXX.XXX.XXX:XXXX
+```
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
