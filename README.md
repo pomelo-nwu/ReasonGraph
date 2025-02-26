@@ -35,6 +35,7 @@
 
 ## 🚀 News
 
+- **[2025.02.26]** A new version has been uploaded.
 - **[2025.02.22]** Create the Github page.
 
 <div>&nbsp;</div>
