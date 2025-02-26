@@ -91,7 +91,7 @@ Chain of Thoughts (top-left), Self-refine (top-middle), Least-to-most (top-right
 Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
 
 <p align="left">
-  <img src="./figures/tree_example.png" width="80%">
+  <img src="./figures/tree_example_2.png" width="80%">
 </p>
 
 </details>
