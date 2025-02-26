@@ -153,6 +153,7 @@ If you don't enter the API keys, the interface can still run normally, but you w
 python app.py
 ```
 
+#### 5. Open your browser and go to the local URL shown in the output.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
