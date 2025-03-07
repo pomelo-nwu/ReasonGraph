@@ -28,13 +28,14 @@
 
 <p align="center">
   <a href="">Project Page</a> •
-  <a href="">Paper</a>
+  <a href="https://arxiv.org/abs/2503.03979">Paper</a>
 </p>
 
 
 
 ## 🚀 News
 
+- **[2025.03.07]** The paper is available in Arxiv.
 - **[2025.02.26]** A new version has been uploaded.
 - **[2025.02.22]** Create the Github page.
 
@@ -46,7 +47,7 @@
 
 ## ✏️ Todo
 
-- [ ] The paper "**ReasonGraph: Visualisation of Reasoning Paths**" is coming!
+- [x] The paper "**ReasonGraph: Visualisation of Reasoning Paths**" is available!
 - [ ] Release the full page.
 - [x] Release the demo.
 
@@ -169,7 +170,15 @@ python app.py
 ## 📌 Citation
 
 ```
-
+@misc{li2025reasongraphvisualisationreasoningpaths,
+      title={ReasonGraph: Visualisation of Reasoning Paths}, 
+      author={Zongqian Li and Ehsan Shareghi and Nigel Collier},
+      year={2025},
+      eprint={2503.03979},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.03979}, 
+}
 ```
 
 <div>&nbsp;</div>
