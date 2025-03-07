@@ -47,8 +47,9 @@
 
 ## ✏️ Todo
 
+- [ ] Upload the demo vedio.
 - [x] The paper "**ReasonGraph: Visualisation of Reasoning Paths**" is available!
-- [ ] Release the full Github page.
+- [x] Release the full Github page.
 - [x] Release the demo.
 
 <div>&nbsp;</div>
@@ -75,7 +76,7 @@
 
 ## 👀 Examples
 
-<details open>
+<details>
 <summary><strong>Demo vedio:</strong></summary>
 
 </details>
