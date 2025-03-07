@@ -59,6 +59,14 @@
 
 ## ✨ Introduction
 
+**ReasonGraph** is an open-source web platform for visualizing and analyzing reasoning processes of Large Language Models (LLMs).
+
+- **Model Support:** Integrates with over 50 state-of-the-art models from major LLM providers including Anthropic, OpenAI, Google, and Together.AI.
+- **Reasoning Methods:** Implements mainstream reasoning approaches including sequential methods and tree-based methods.
+- **Modular Framework:** Standardized APIs for easy integration of new reasoning methods and models.
+- **Beginner-Friendly:** Intuitive UI design with visualization updates and simple configuration.
+- **Meta Reasoning:** Built-in ability that allows models to self-select the most appropriate reasoning method.
+
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div id="examples">&nbsp;</div>
@@ -66,6 +74,11 @@
 
 
 ## 👀 Examples
+
+<details open>
+<summary><strong>Demo vedio:</strong></summary>
+
+</details>
 
 <details open>
 <summary><strong>UI Screenshot:</strong></summary>
