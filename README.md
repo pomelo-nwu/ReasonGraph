@@ -36,7 +36,7 @@
 
 ## 🚀 News
 
-- **[2025.03.14]** Join our [Discord](https://discord.gg/tA9DV7Fjzz) group!.
+- **[2025.03.14]** Join our [Discord](https://discord.gg/tA9DV7Fjzz) group!
 - **[2025.03.07]** The paper is available in Arxiv.
 - **[2025.03.07]** A new version has been uploaded.
 - **[2025.02.22]** Create the Github page.
