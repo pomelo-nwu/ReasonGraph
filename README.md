@@ -90,7 +90,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Visualisation of sequential reasoning methods:</strong></summary>
 
 Chain of Thoughts (top-left), Self-refine (top-middle), Least-to-most (top-right), Self-consistency (bottom-left):
@@ -101,7 +101,7 @@ Chain of Thoughts (top-left), Self-refine (top-middle), Least-to-most (top-right
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Visualisation of tree-based reasoning methods:</strong></summary>
 
 Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
