@@ -47,8 +47,9 @@
 
 
 
-## ✏️ Todo
+## ✏️ Todo & Help Wanted
 
+- [ ] **[Help Wanted]** Create a Gradio (Huggingface page) version for ReasonGraph.
 - [ ] Upload the demo vedio.
 - [x] The paper "**ReasonGraph: Visualisation of Reasoning Paths**" is available!
 - [x] Release the full Github page.
