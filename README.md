@@ -81,6 +81,8 @@
 
 </details>
 
+<div>&nbsp;</div>
+
 <details open>
 <summary><strong>UI Screenshot:</strong></summary>
 
@@ -89,6 +91,8 @@
 </p>
 
 </details>
+
+<div>&nbsp;</div>
 
 <details open>
 <summary><strong>Visualisation of sequential reasoning methods:</strong></summary>
@@ -100,6 +104,8 @@ Chain of Thoughts (top-left), Self-refine (top-middle), Least-to-most (top-right
 </p>
 
 </details>
+
+<div>&nbsp;</div>
 
 <details open>
 <summary><strong>Visualisation of tree-based reasoning methods:</strong></summary>
@@ -141,6 +147,18 @@ google-generativeai==0.8.4
 
 ## 🎨 Quick Use
 
+<details open>
+<summary><strong>Try the online demo:</strong></summary>
+
+#### 1. Click the website: https://huggingface.co/spaces/ZongqianLi/ReasonGraph
+
+</details>
+
+<div>&nbsp;</div>
+
+<details>
+<summary><strong>Install the package:</strong></summary>
+
 #### 1. Set up the environment according to Section 🖥️ Environment above.
 
 #### 2. Go to root directory:
@@ -174,6 +192,8 @@ python app.py
  * Running on http://XXX.X.X.X:XXXX
  * Running on http://XX.XXX.XXX.XXX:XXXX
 ```
+
+</details>
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
