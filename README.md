@@ -131,7 +131,7 @@ Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
 <details open>
 <summary><strong>Try the online demo:</strong></summary>
 
-#### 1. Click the website: https://huggingface.co/spaces/ZongqianLi/ReasonGraph
+#### 1. Go to the website: https://huggingface.co/spaces/ZongqianLi/ReasonGraph
 
 </details>
 
