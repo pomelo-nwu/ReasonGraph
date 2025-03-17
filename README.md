@@ -12,8 +12,8 @@
 
 <p align="center">
   <a href="#examples">👀 Examples</a> •
-  <a href="#environment">🖥️ Environment</a> •
-  <a href="#quick use">🎨 Quick Use</a>
+  <a href="#quick use">🎨 Quick Use</a> •
+  <a href="#environment">🖥️ Environment</a>
 </p>
 
 <p align="center">
@@ -122,25 +122,6 @@ Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="environment">&nbsp;</div>
-
-
-
-## 🖥️ Environment
-
-```
-python==3.11.8
-requests==2.31.0
-openai==1.63.2
-together==1.4.1
-flask==3.1.0
-google==3.0.0
-google-genai==1.2.0
-google-generativeai==0.8.4
-```
-
-<div>&nbsp;</div>
-<div>&nbsp;</div>
 <div id="quick use">&nbsp;</div>
 
 
@@ -159,7 +140,7 @@ google-generativeai==0.8.4
 <details>
 <summary><strong>Install the package:</strong></summary>
 
-#### 1. Set up the environment according to Section 🖥️ Environment above.
+#### 1. Set up the environment according to Section 🖥️ Environment below.
 
 #### 2. Go to root directory:
 
@@ -194,6 +175,25 @@ python app.py
 ```
 
 </details>
+
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div id="environment">&nbsp;</div>
+
+
+
+## 🖥️ Environment
+
+```
+python==3.11.8
+requests==2.31.0
+openai==1.63.2
+together==1.4.1
+flask==3.1.0
+google==3.0.0
+google-genai==1.2.0
+google-generativeai==0.8.4
+```
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
