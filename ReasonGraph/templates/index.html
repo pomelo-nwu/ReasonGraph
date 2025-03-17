@@ -126,7 +126,7 @@
         }
 
         .search-buttons button:hover {
-            background-color: rgba(37, 99, 235, 0.9);  /* Changes to a darker blue when mouse is over */
+            background-color: rgba(37, 99, 235, 0.9);  /* 鼠标悬停时变为深一点的蓝色 */
             transform: translateY(-1px);
         }
 
@@ -218,15 +218,20 @@
         .error-message {
             color: #dc2626;
             font-size: 14px;
-            margin-top: 5px;
             display: none;
             position: absolute;
-            bottom: -20px;
-            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
             background: white;
             padding: 2px 8px;
             border-radius: 4px;
             box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            margin-right: 10px;
+        }
+
+        .search-input-container, .param-group {
+            position: relative;
         }
 
         .output-section {
