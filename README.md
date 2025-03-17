@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <a href="">Project Page</a> •
+  <a href="https://huggingface.co/spaces/ZongqianLi/ReasonGraph">Online Demo</a> •
   <a href="https://arxiv.org/abs/2503.03979">Paper</a> •
   <a href="https://discord.gg/tA9DV7Fjzz">Discord</a>
 </p>
@@ -36,8 +36,9 @@
 
 ## 🚀 News
 
+- **[2025.03.17]** Create the [online demo](https://huggingface.co/spaces/ZongqianLi/ReasonGraph) through Huggingface Page! Have a try!
 - **[2025.03.14]** Join our [Discord](https://discord.gg/tA9DV7Fjzz) group!
-- **[2025.03.07]** The paper is available in Arxiv.
+- **[2025.03.07]** The [paper](https://arxiv.org/abs/2503.03979) is available in Arxiv.
 - **[2025.03.07]** A new version has been uploaded.
 - **[2025.02.22]** Create the Github page.
 
@@ -49,11 +50,7 @@
 
 ## ✏️ Todo & Help Wanted
 
-- [ ] **[Help Wanted]** Create a Gradio (Huggingface page) version for ReasonGraph.
 - [ ] Upload the demo vedio.
-- [x] The paper "**ReasonGraph: Visualisation of Reasoning Paths**" is available!
-- [x] Release the full Github page.
-- [x] Release the demo.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
