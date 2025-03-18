@@ -1,24 +1,24 @@
 # ReasonGraph: Visualisation of Reasoning Paths
 
 <p align="center">
-  <b>Content</b>
+  <b>目录</b>
 </p>
 
 <p align="center">
-  <a href="#news">🚀 News</a> •
-  <a href="#todo">✏️ Todo</a> •
-  <a href="#introduction">✨ Introduction</a>
+  <a href="#news">🚀 新闻</a> •
+  <a href="#todo">✏️ 计划</a> •
+  <a href="#introduction">✨ 介绍</a>
 </p>
 
 <p align="center">
-  <a href="#examples">👀 Examples</a> •
-  <a href="#quick use">🎨 Quick Use</a> •
-  <a href="#environment">🖥️ Environment</a>
+  <a href="#examples">👀 示例</a> •
+  <a href="#quick use">🎨 快速使用</a> •
+  <a href="#environment">🖥️ 环境配置</a>
 </p>
 
 <p align="center">
-  <a href="#citation">📌 Citation</a> •
-  <a href="#license">🔖 License</a>
+  <a href="#citation">📌 引用</a> •
+  <a href="#license">🔖 许可</a>
 </p>
 <div id="news">&nbsp;</div>
 
@@ -27,23 +27,23 @@
 </p>
 
 <p align="center">
-  <a href="https://huggingface.co/spaces/ZongqianLi/ReasonGraph">Online Demo</a> •
-  <a href="https://arxiv.org/abs/2503.03979">Paper</a> •
-  <a href="https://discord.gg/tA9DV7Fjzz">Discord</a> •
-  <a href="https://forms.office.com/r/ebBSAKqHwj">Questionnaire</a>
+  <a href="https://huggingface.co/spaces/ZongqianLi/ReasonGraph">在线实例</a> •
+  <a href="https://arxiv.org/abs/2503.03979">论文</a> •
+  <a href="https://discord.gg/tA9DV7Fjzz">Discord群组交流</a> •
+  <a href="https://forms.office.com/r/ebBSAKqHwj">问卷反馈</a>
 </p>
 
 
 
-## 🚀 News
+## 🚀 新闻
 
-- **[2025.03.18]** Support more LLM providers and models.
-- **[2025.03.18]** Rate and provide comments in the [questionnaire](https://forms.office.com/r/ebBSAKqHwj) (takes about 30 seconds).
-- **[2025.03.17]** Try the [online demo](https://huggingface.co/spaces/ZongqianLi/ReasonGraph) through Huggingface Page!
-- **[2025.03.14]** Join our [Discord](https://discord.gg/tA9DV7Fjzz) group!
-- **[2025.03.07]** The [paper](https://arxiv.org/abs/2503.03979) is available in Arxiv.
-- **[2025.03.07]** A new version has been uploaded.
-- **[2025.02.22]** Create the Github page.
+- **[2025.03.18]** 支持更多大语言模型供应商和模型。
+- **[2025.03.18]** 在[调查问卷](https://forms.office.com/r/ebBSAKqHwj)中打分和提供反馈（约需30秒）。
+- **[2025.03.17]** 通过Huggingface页面尝试[在线实例](https://huggingface.co/spaces/ZongqianLi/ReasonGraph)！
+- **[2025.03.14]** 加入我们的[Discord](https://discord.gg/tA9DV7Fjzz)群组交流！
+- **[2025.03.07]** [论文](https://arxiv.org/abs/2503.03979)已上传至Arxiv。
+- **[2025.03.07]** 上传了一个新版本。
+- **[2025.02.22]** 创建了Github页面。
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
@@ -51,9 +51,9 @@
 
 
 
-## ✏️ Todo & Help Wanted
+## ✏️ 计划 & 所需帮助
 
-- [ ] Upload the demo vedio.
+- [ ] 上传示例视频。
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
@@ -61,7 +61,7 @@
 
 
 
-## ✨ Introduction
+## ✨ 介绍
 
 **ReasonGraph** is an open-source web platform for visualizing and analyzing reasoning processes of Large Language Models (LLMs).
 
@@ -71,23 +71,31 @@
 - **Beginner-Friendly:** Intuitive UI design with visualization updates and simple configuration.
 - **Meta Reasoning:** Built-in ability that allows models to self-select the most appropriate reasoning method.
 
+**ReasonGraph**是一个开源网页平台，用于可视化和分析LLM的推理过程。
+
+- **模型支持：**集成了来自Anthropic、OpenAI、Google、Grok、Deepseek、Qwen和Together.AI等主要LLM提供商的50多种先进模型。
+- **推理方法：**实现了主流推理方法，包括顺序方法和基于树的方法。
+- **模块化框架：**标准化API，便于集成新的推理方法和模型。
+- **适合初学者：**直观的页面设计，具有可视化更新和简单配置。
+- **元推理：**内置功能，允许模型自行选择最合适的推理方法。
+
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div id="examples">&nbsp;</div>
 
 
 
-## 👀 Examples
+## 👀 示例
 
 <details>
-<summary><strong>Demo vedio:</strong></summary>
+<summary><strong>示例视频：</strong></summary>
 
 </details>
 
 <div>&nbsp;</div>
 
 <details open>
-<summary><strong>UI Screenshot:</strong></summary>
+<summary><strong>页面截图:</strong></summary>
 
 <p align="left">
   <img src="./figures/UI.png" width="80%">
@@ -98,9 +106,9 @@
 <div>&nbsp;</div>
 
 <details open>
-<summary><strong>Visualisation of sequential reasoning methods:</strong></summary>
+<summary><strong>顺序推理方法的可视化：</strong></summary>
 
-Chain of Thoughts (top-left), Self-refine (top-middle), Least-to-most (top-right), Self-consistency (bottom-left):
+思维链 Chain of Thoughts (左上), 自我完善 (中上), 由简至繁 Least-to-most (右上), 自我一致性 Self-consistency (左下):
 
 <p align="left">
   <img src="./figures/sequence_example.png" width="80%">
@@ -111,9 +119,9 @@ Chain of Thoughts (top-left), Self-refine (top-middle), Least-to-most (top-right
 <div>&nbsp;</div>
 
 <details open>
-<summary><strong>Visualisation of tree-based reasoning methods:</strong></summary>
+<summary><strong>基于树的推理方法的可视化：</strong></summary>
 
-Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
+纯文本 Plain text (上), 束搜索 Beam Search (中), 思维树 Tree of Thoughts (下):
 
 <p align="left">
   <img src="./figures/tree_example_2.png" width="80%">
@@ -129,29 +137,29 @@ Plain text (top), Beam Search (middle), Tree of Thoughts (bottom):
 
 
 
-## 🎨 Quick Use
+## 🎨 快速使用
 
 <details open>
-<summary><strong>Try the online demo:</strong></summary>
+<summary><strong>尝试在线实例：</strong></summary>
 
-#### 1. Go to the website: https://huggingface.co/spaces/ZongqianLi/ReasonGraph
+#### 1. 前往网页：https://huggingface.co/spaces/ZongqianLi/ReasonGraph
 
 </details>
 
 <div>&nbsp;</div>
 
 <details>
-<summary><strong>Install the package:</strong></summary>
+<summary><strong>本地使用：</strong></summary>
 
-#### 1. Set up the environment according to Section 🖥️ Environment below.
+#### 1. 根据下方🖥️环境配置部分配置环境。
 
-#### 2. Go to root directory:
+#### 2. 进入根目录：
 
 <absolute_path>/ReasonGraph/
 
-#### 3. Input the API key:
+#### 3. 输入API key:
 
-If you don't enter the API keys, the interface can still run normally, but you won't be able to use the corresponding models for inference.
+如果您不输入API key，界面仍然可以正常运行，但您将无法使用相应的模型进行推理。
 
 <absolute_path>/ReasonGraph/api_keys.json
 
@@ -164,13 +172,13 @@ If you don't enter the API keys, the interface can still run normally, but you w
 }
 ```
 
-#### 4. Run the program with a single line of code in the terminal:
+#### 4. 在终端中使用一行代码即可运行程序：
 
 ```
 python app.py
 ```
 
-#### 5. Open your browser and go to the local URL shown in the output.
+#### 5. 打开浏览器并访问输出中显示的本地URL。
 ```
  * Running on all addresses (X.X.X.X)
  * Running on http://XXX.X.X.X:XXXX
@@ -185,7 +193,7 @@ python app.py
 
 
 
-## 🖥️ Environment
+## 🖥️ 环境配置
 
 ```
 python==3.11.8
@@ -204,7 +212,7 @@ google-generativeai==0.8.4
 
 
 
-## 📌 Citation
+## 📌 引用
 
 ```
 @misc{li2025reasongraphvisualisationreasoningpaths,
@@ -224,7 +232,7 @@ google-generativeai==0.8.4
 
 
 
-## 🔖 License
+## 🔖 许可
 
 ```
 
