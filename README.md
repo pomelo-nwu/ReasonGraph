@@ -37,6 +37,7 @@
 
 ## 🚀 News
 
+- **[2025.03.18]** Support more LLM providers and models.
 - **[2025.03.18]** Rate and provide comments in the [questionnaire](https://forms.office.com/r/ebBSAKqHwj) (takes about 30 seconds).
 - **[2025.03.17]** Try the [online demo](https://huggingface.co/spaces/ZongqianLi/ReasonGraph) through Huggingface Page!
 - **[2025.03.14]** Join our [Discord](https://discord.gg/tA9DV7Fjzz) group!
