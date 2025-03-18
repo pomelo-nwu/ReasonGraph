@@ -29,13 +29,15 @@
 <p align="center">
   <a href="https://huggingface.co/spaces/ZongqianLi/ReasonGraph">Online Demo</a> •
   <a href="https://arxiv.org/abs/2503.03979">Paper</a> •
-  <a href="https://discord.gg/tA9DV7Fjzz">Discord</a>
+  <a href="https://discord.gg/tA9DV7Fjzz">Discord</a> •
+  <a href="https://forms.office.com/r/ebBSAKqHwj">Questionnaire</a>
 </p>
 
 
 
 ## 🚀 News
 
+- **[2025.03.18]** Welcome to rate and provide comments on ReasonGraph in the [questionnaire](https://forms.office.com/r/ebBSAKqHwj).
 - **[2025.03.17]** Create the [online demo](https://huggingface.co/spaces/ZongqianLi/ReasonGraph) through Huggingface Page! Have a try!
 - **[2025.03.14]** Join our [Discord](https://discord.gg/tA9DV7Fjzz) group!
 - **[2025.03.07]** The [paper](https://arxiv.org/abs/2503.03979) is available in Arxiv.
