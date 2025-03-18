@@ -1,6 +1,15 @@
 # ReasonGraph: Visualisation of Reasoning Paths
 
 <p align="center">
+  <b>Language</b>
+</p>
+
+<p align="center">
+  <a href="README.md">English</a> •
+  <a href="README_CN.md">中文</a>
+</p>
+
+<p align="center">
   <b>Content</b>
 </p>
 
