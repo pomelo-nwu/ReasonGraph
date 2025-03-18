@@ -43,6 +43,16 @@ def index():
     """Render the main page"""
     return render_template('index.html')
 
+@app.route('/index.html')
+def index_direct():
+    """Directly render the main page when accessed via index.html"""
+    return render_template('index.html')
+
+@app.route('/index_cn.html')
+def index_cn():
+    """Render the Chinese version of the main page"""
+    return render_template('index_cn.html')
+
 @app.route('/config')
 def get_config():
     """Get initial configuration"""

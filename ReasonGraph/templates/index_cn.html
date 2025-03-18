@@ -340,19 +340,19 @@
             <h1>ReasonGraph: Visualisation of Reasoning Paths</h1>
             <div class="search-area">
                 <div class="search-input-container">
-                    <textarea id="question" class="search-input" placeholder="Enter your question here..." rows="1"></textarea>
-                    <div class="error-message" id="question-error">Please enter a question</div>
+                    <textarea id="question" class="search-input" placeholder="在此输入您的问题..." rows="1"></textarea>
+                    <div class="error-message" id="question-error">请输入问题</div>
                 </div>
                 <div class="search-buttons">
                     <select class="param-input" id="reasoning-method">
                         <!-- Populated dynamically -->
                     </select>
-                    <button onclick="metaReasoning()" id="meta-btn">Meta Reasoning</button>
-                    <button onclick="processQuestion()" id="process-btn">Start Reasoning</button>
+                    <button onclick="metaReasoning()" id="meta-btn">元推理</button>
+                    <button onclick="processQuestion()" id="process-btn">开始推理</button>
                 </div>
             </div>
             <div class="links">
-                <a href="https://github.com/ZongqianLi/ReasonGraph"><u>Github</u> |&nbsp</a><a href="https://arxiv.org/abs/2503.03979"><u>Paper</u> |&nbsp</a><a href="mailto:zongqianli.work@outlook.com"><u>Email</u></a>
+                <a href="https://github.com/ZongqianLi/ReasonGraph"><u>Github</u> |&nbsp</a><a href="https://arxiv.org/abs/2503.03979"><u>论文</u> |&nbsp</a><a href="mailto:zongqianli.work@outlook.com"><u>邮箱</u></a>
             </div>
             <div class="links">
                 <a href="./index.html"><u>English</u> |&nbsp</a><a href="./index_cn.html"><u>中文</u></a>
@@ -362,67 +362,67 @@
     
     <div class="container">
         <div class="column">
-            <h2>Reasoning Settings</h2>
+            <h2>推理设置</h2>
 
             <div class="param-group">
-                <div class="param-label">API Provider</div>
+                <div class="param-label">API提供商</div>
                 <select class="param-input" id="api-provider" onchange="handleProviderChange(this.value)">
                     <!-- Populated dynamically -->
                 </select>
             </div>
 
             <div class="param-group">
-                <div class="param-label">Model</div>
+                <div class="param-label">模型</div>
                 <select class="param-input" id="model">
                     <!-- Populated dynamically -->
                 </select>
             </div>
 
             <div class="param-group">
-                <div class="param-label">Max Tokens</div>
+                <div class="param-label">最大输出令牌数</div>
                 <input type="number" class="param-input" id="max-tokens">
             </div>
 
             <div class="param-group">
                 <div class="param-label">API Key</div>
                 <input type="password" class="param-input" id="api-key">
-                <div class="error-message" id="api-key-error">Please enter a valid API key</div>
+                <div class="error-message" id="api-key-error">请输入有效的API密钥</div>
             </div>
 
             <div class="param-group">
-                <div class="param-label">Custom Prompt Format</div>
+                <div class="param-label">自定义提示格式</div>
                 <textarea class="param-input" id="prompt-format" rows="6"></textarea>
             </div>
             
             <div class="output-section">
-                <h3>Raw Model Output</h3>
+                <h3>模型原始输出</h3>
                 <div class="output-wrapper">
-                    <pre id="raw-output">Output will appear here...</pre>
+                    <pre id="raw-output">输出将显示在这里...</pre>
                 </div>
             </div>
         </div>
         
         <div class="column">
-            <h2>Visualization Settings</h2>
+            <h2>可视化设置</h2>
             
             <div class="param-group">
-                <div class="param-label">Characters Per Line</div>
+                <div class="param-label">每行字符数</div>
                 <input type="number" class="param-input" id="chars-per-line">
             </div>
 
             <div class="param-group">
-                <div class="param-label">Maximum Lines</div>
+                <div class="param-label">最大行数</div>
                 <input type="number" class="param-input" id="max-lines">
             </div>
             
             <div class="output-section">
-                <h3>Visualization Results</h3>
+                <h3>可视化结果</h3>
                 <div class="zoom-controls">
                     <button class="zoom-button" onclick="adjustZoom(-0.1)">-</button>
                     <div class="zoom-level" id="zoom-level">100%</div>
                     <button class="zoom-button" onclick="adjustZoom(0.1)">+</button>
-                    <button class="zoom-button" onclick="resetZoom()">Reset</button>
-                    <button class="zoom-button" onclick="downloadDiagram()">Download</button>
+                    <button class="zoom-button" onclick="resetZoom()">重置</button>
+                    <button class="zoom-button" onclick="downloadDiagram()">下载</button>
                 </div>
                 <div class="visualization-wrapper">
                     <div id="mermaid-container">
@@ -607,7 +607,7 @@
 
             const diagramContainer = document.getElementById('mermaid-diagram');
             if (!diagramContainer || !diagramContainer.querySelector('svg')) {
-                alert('No diagram available to download');
+                alert('没有可供下载的图表');
                 return;
             }
 
@@ -644,7 +644,7 @@
                 URL.revokeObjectURL(url);
             } catch (error) {
                 console.error('Error downloading diagram:', error);
-                alert('Failed to download diagram');
+                alert('下载图表失败');
             }
         }
 
@@ -675,7 +675,7 @@
 
         function showError(message) {
             const rawOutput = document.getElementById('raw-output');
-            rawOutput.textContent = `Error: ${message}`;
+            rawOutput.textContent = `错误: ${message}`;
             rawOutput.style.color = '#dc2626';
         }
 
@@ -693,8 +693,8 @@
             
             processButton.disabled = true;
             metaButton.disabled = true;
-            processButton.textContent = 'Processing...';
-            rawOutput.textContent = 'Loading...';
+            processButton.textContent = '处理中...';
+            rawOutput.textContent = '加载中...';
             rawOutput.style.color = '#1f2937';
             
             // Lock visualization
@@ -735,19 +735,19 @@
                         mermaid.init();
                     }
                 } else {
-                    showError(result.error || 'Unknown error occurred');
+                    showError(result.error || '发生未知错误');
                 }
             } catch (error) {
-                showError('Failed to process request: ' + error.message);
+                showError('处理请求失败: ' + error.message);
             } finally {
                 // Unlock visualization
                 unlockVisualization();
                 
                 processButton.disabled = false;
                 metaButton.disabled = false;
-                processButton.textContent = 'Start Reasoning';
+                processButton.textContent = '开始推理';
                 if (isMetaReasoning) {
-                    metaButton.textContent = 'Meta Reasoning';
+                    metaButton.textContent = '元推理';
                 }
             }
         }
@@ -759,8 +759,8 @@
             
             try {
                 metaButton.disabled = true;
-                metaButton.textContent = 'Selecting Method...';
-                rawOutput.textContent = 'Analyzing question to select best method...';
+                metaButton.textContent = '选择方法中...';
+                rawOutput.textContent = '正在分析问题以选择最佳方法...';
                 
                 // Get current parameters
                 const data = {
@@ -802,22 +802,22 @@
                         console.log(`Selected reasoning method: ${methodConfig.name}`);
                         
                         // Update button to show method was selected
-                        metaButton.textContent = 'Method Selected';
+                        metaButton.textContent = '方法已选择';
                         // Process the question with the selected method
                         await processQuestion(true);
                     } else {
-                        showError('Failed to load method configuration');
-                        metaButton.textContent = 'Meta Reasoning';
+                        showError('加载方法配置失败');
+                        metaButton.textContent = '元推理';
                     }
                 } else {
-                    showError(result.error || 'Failed to select method');
-                    metaButton.textContent = 'Meta Reasoning';
+                    showError(result.error || '选择方法失败');
+                    metaButton.textContent = '元推理';
                 }
             } catch (error) {
                 console.error('Meta reasoning error:', error);
-                showError('Failed to execute meta reasoning');
+                showError('执行元推理失败');
                 metaButton.disabled = false;
-                metaButton.textContent = 'Meta Reasoning';
+                metaButton.textContent = '元推理';
             }
         }
 

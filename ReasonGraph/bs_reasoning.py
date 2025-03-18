@@ -175,7 +175,13 @@ def wrap_text(text: str, config: VisualizationConfig) -> str:
     wrapped_lines = textwrap.wrap(text, width=config.max_chars_per_line)
     
     if len(wrapped_lines) > config.max_lines:
+        # Option 1: Simply truncate and add ellipsis to the last line
         wrapped_lines = wrapped_lines[:config.max_lines]
         wrapped_lines[-1] = wrapped_lines[-1][:config.max_chars_per_line-3] + "..."
-            
+        
+        # Option 2 (alternative): Include part of the next line to show continuity
+        # original_next_line = wrapped_lines[config.max_lines] if len(wrapped_lines) > config.max_lines else ""
+        # wrapped_lines = wrapped_lines[:config.max_lines-1]
+        # wrapped_lines.append(original_next_line[:config.max_chars_per_line-3] + "...")
+    
     return "<br>".join(wrapped_lines)
