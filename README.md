@@ -37,8 +37,8 @@
 
 ## 🚀 News
 
-- **[2025.03.18]** Welcome to rate and provide comments on ReasonGraph in the [questionnaire](https://forms.office.com/r/ebBSAKqHwj) (takes about 30 seconds).
-- **[2025.03.17]** Create the [online demo](https://huggingface.co/spaces/ZongqianLi/ReasonGraph) through Huggingface Page! Have a try!
+- **[2025.03.18]** Rate and provide comments in the [questionnaire](https://forms.office.com/r/ebBSAKqHwj) (takes about 30 seconds).
+- **[2025.03.17]** Try the [online demo](https://huggingface.co/spaces/ZongqianLi/ReasonGraph) through Huggingface Page!
 - **[2025.03.14]** Join our [Discord](https://discord.gg/tA9DV7Fjzz) group!
 - **[2025.03.07]** The [paper](https://arxiv.org/abs/2503.03979) is available in Arxiv.
 - **[2025.03.07]** A new version has been uploaded.
