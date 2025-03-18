@@ -46,7 +46,8 @@
 
 ## 🚀 新闻
 
-- **[2025.03.18]** 支持更多大语言模型供应商和模型。
+- **[2025.03.18]** 支持两种语言，英语和中文。
+- **[2025.03.18]** 支持更多LLM供应商和模型。
 - **[2025.03.18]** 在[调查问卷](https://forms.office.com/r/ebBSAKqHwj)中打分和提供反馈（约需30秒）。
 - **[2025.03.17]** 通过Huggingface页面尝试[在线实例](https://huggingface.co/spaces/ZongqianLi/ReasonGraph)！
 - **[2025.03.14]** 加入我们的[Discord](https://discord.gg/tA9DV7Fjzz)群组交流！
