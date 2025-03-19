@@ -29,10 +29,9 @@
   <a href="#citation">📌 引用</a> •
   <a href="#license">🔖 许可</a>
 </p>
-<div id="news">&nbsp;</div>
 
 <p align="center">
-  <b>Links</b>
+  <b>链接</b>
 </p>
 
 <p align="center">
@@ -41,6 +40,8 @@
   <a href="https://discord.gg/tA9DV7Fjzz">Discord群组交流</a> •
   <a href="https://forms.office.com/r/ebBSAKqHwj">问卷反馈</a>
 </p>
+
+<div id="news">&nbsp;</div>
 
 
 
@@ -72,14 +73,6 @@
 
 
 ## ✨ 介绍
-
-**ReasonGraph** is an open-source web platform for visualizing and analyzing reasoning processes of Large Language Models (LLMs).
-
-- **Model Support:** Integrates with over 50 state-of-the-art models from major LLM providers including Anthropic, OpenAI, Google, Grok, Deepseek, Qwen, and Together.AI.
-- **Reasoning Methods:** Implements mainstream reasoning approaches including sequential methods and tree-based methods.
-- **Modular Framework:** Standardized APIs for easy integration of new reasoning methods and models.
-- **Beginner-Friendly:** Intuitive UI design with visualization updates and simple configuration.
-- **Meta Reasoning:** Built-in ability that allows models to self-select the most appropriate reasoning method.
 
 **ReasonGraph**是一个开源网页平台，用于可视化和分析LLM的推理过程。
 
