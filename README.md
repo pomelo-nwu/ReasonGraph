@@ -29,7 +29,6 @@
   <a href="#citation">📌 Citation</a> •
   <a href="#license">🔖 License</a>
 </p>
-<div id="news">&nbsp;</div>
 
 <p align="center">
   <b>Links</b>
@@ -41,6 +40,8 @@
   <a href="https://discord.gg/tA9DV7Fjzz">Discord</a> •
   <a href="https://forms.office.com/r/ebBSAKqHwj">Questionnaire</a>
 </p>
+
+<div id="news">&nbsp;</div>
 
 
 
