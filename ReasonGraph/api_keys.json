@@ -1,9 +1,9 @@
 {
-    "anthropic": "",
-    "openai": "",
-    "google": "",
-    "together": "",
-    "deepseek": "",
-    "qwen": "",
-    "grok": ""
+  "anthropic": "xxx",
+  "openai": "xx",
+  "google": "xx",
+  "together": "xx",
+  "deepseek": "xx",
+  "qwen": "xxx",
+  "grok": "xx"
 }

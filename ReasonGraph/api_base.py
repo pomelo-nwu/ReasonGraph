@@ -4,7 +4,7 @@ import requests
 from openai import OpenAI
 from typing import Optional, Dict, Any, List
 from dataclasses import dataclass
-
+import os
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -319,36 +319,77 @@ class GrokAPI(BaseAPI):
         except Exception as e:
             self._handle_error(e, "request or response processing")
 
+class TyAPI(BaseAPI):
+    """Class to handle interactions with the Qwen API"""
+    
+    def __init__(self, api_key: str, model: str = "qwen-plus"):
+        super().__init__(api_key, model)
+        try:
+            self.provider_name = "DashScope"
+            print( os.getenv('DASHSCOPE_API_KEY'))
+            self.base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+            self.headers = {
+                "Authorization": f"Bearer {os.getenv('DASHSCOPE_API_KEY')}",
+                "content-type": "application/json"
+            }
+        except Exception as e:
+            self._handle_error(e, "initialization")
+
+    def generate_response(self, prompt: str, max_tokens: int = 1024, 
+                         prompt_format: Optional[str] = None) -> str:
+        """Generate a response using the Qwen API"""
+        try:
+            formatted_prompt = self._format_prompt(prompt, prompt_format)
+            data = {
+                "model": self.model,
+                "messages": [{"role": "user", "content": formatted_prompt}],
+                # "max_tokens": max_tokens
+            }
+
+            
+            logger.info(f"Sending request to API with model {self.model}")
+            print(self.base_url, self.headers,data)
+            response = requests.post(self.base_url, headers=self.headers, json=data)
+            response.raise_for_status()
+            response_data = response.json()
+            logger.info(f"Received response from Anthropic API: {response_data}")
+
+            return response_data['choices'][0]["message"]['content']
+            
+        except Exception as e:
+            self._handle_error(e, "request or response processing")
+
+
 class APIFactory:
     """Factory class for creating API instances"""
     
     _providers = {
         "anthropic": {
-            "class": AnthropicAPI,
+            "class": TyAPI,
             "default_model": "claude-3-7-sonnet-20250219"
         },
         "openai": {
-            "class": OpenAIAPI,
+            "class": TyAPI,
             "default_model": "gpt-4-turbo-preview"
         },
         "google": {
-            "class": GeminiAPI,
+            "class": TyAPI,
             "default_model": "gemini-2.0-flash"
         },
         "together": {
-            "class": TogetherAPI,
+            "class": TyAPI,
             "default_model": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
         },
         "deepseek": {
-            "class": DeepSeekAPI,
+            "class": TyAPI,
             "default_model": "deepseek-chat"
         },
         "qwen": {
-            "class": QwenAPI,
+            "class": TyAPI,
             "default_model": "qwen-plus"
         },
         "grok": {
-            "class": GrokAPI,
+            "class": TyAPI,
             "default_model": "grok-2-latest"
         }
     }
@@ -373,9 +414,14 @@ class APIFactory:
         logger.info(f"Creating API instance for provider: {provider}, model: {model}")
         return api_class(api_key=api_key, model=model)
 
+# def create_api(provider: str, api_key: str, model: Optional[str] = None) -> BaseAPI:
+#     """Convenience function to create API instance"""
+#     return APIFactory.create_api(provider, api_key, model)
+
 def create_api(provider: str, api_key: str, model: Optional[str] = None) -> BaseAPI:
     """Convenience function to create API instance"""
     return APIFactory.create_api(provider, api_key, model)
+
 
 # Example usage:
 if __name__ == "__main__":
